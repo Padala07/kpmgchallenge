@@ -1,0 +1,22 @@
+1. We are suing bash script to query metadata
+2. Login to EC2 instance install python and boto3 packages
+3. Place this file in the server and run it using python <filename>.py --<Args>
+4. Accepted Inputs are 
+    -a for  --ami-id
+    -l for--ami-launch-index 
+	-m for--ami-manifest-path 
+	-n for--ancestor-ami-ids 
+	-i for--instance-id 
+	-t for--instance-type 
+	-h for--local-hostname 
+	-o for--local-ipv4
+	-k for--kernel-id 
+	-z for--availability-zone 
+	-c for--product-codes 
+	-p for--public-hostname 
+	-v for--public-ipv4 
+	-r for--ramdisk-id 
+	-e for--reservation-id 
+	-s for--security-groups 
+	-d for--user-data 
+    --all for--metadata-details 

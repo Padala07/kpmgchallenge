@@ -1,0 +1,4 @@
+1. This architecture has 3 layers UI, Node and RDS DB
+2. UI Is exposed to internet, Node is backend layer, and we are using RDS Oracle DB
+3. Considering they are docker applications,we are hosting them in ECS
+4. They are provisioning via terraform
