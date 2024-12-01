@@ -3,4 +3,5 @@ resource "aws_ecr_repository" "demo" {
     name  = "first trail"
     staus = "successuful"
     status = "trying 2"
+    name = " cherrypic"
 }
