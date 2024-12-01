@@ -4,4 +4,5 @@ resource "aws_ecr_repository" "demo" {
     staus = "successuful"
     status = "trying 2"
     name = " cherrypic"
+    status = "trying 3"
 }
